@@ -2299,7 +2299,7 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
-copy-to-clipboard@^3.0.8:
+copy-to-clipboard@3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.0.8.tgz#f4e82f4a8830dce4666b7eb8ded0c9bcc313aba9"
   dependencies:
@@ -2751,9 +2751,9 @@ destroy@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
 
-detect-browser@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/detect-browser/-/detect-browser-2.1.0.tgz#df35462901dfd92b8f37c2fa457d6e1f57b5e8eb"
+detect-browser@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/detect-browser/-/detect-browser-2.3.0.tgz#559be80688725b437500ec7c04b618b43dea6e76"
 
 detect-file@^0.1.0:
   version "0.1.0"
