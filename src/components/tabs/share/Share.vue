@@ -7,9 +7,6 @@
     <div class="channel-select" :style="sectionStyle">
       <span class="label">{{ $t('SHARE.SHARE_CHANNEL') }}</span>
       <share-channels-component :type="share.content"></share-channels-component>
-
-      <span class="label" v-if="hasLink">{{ $t('SHARE.SHARE_LINK') }}</span>
-      <share-link-component :type="share.content" v-if="hasLink"></share-link-component>
     </div>
 
     <share-embed-component :type="share.content"></share-embed-component>
@@ -19,7 +16,6 @@
 <script>
   import ShareChannelsComponent from './ShareChannels'
   import ShareContentComponent from './ShareContent'
-  import ShareLinkComponent from './ShareLink'
 
   import ShareEmbedComponent from './ShareEmbed'
 
@@ -47,8 +43,7 @@
     components: {
       ShareContentComponent,
       ShareChannelsComponent,
-      ShareEmbedComponent,
-      ShareLinkComponent
+      ShareEmbedComponent
     }
   }
 </script>

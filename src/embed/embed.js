@@ -23,9 +23,9 @@ const player = config => [
   tag('PodlovePlayer'),
 
   // Bundles
-  tag('link', '', {rel: 'stylesheet', href: `${get(config.reference, 'base', BASE)}/style.css`}),
-  tag('script', '', {type: 'text/javascript', src: `${get(config.reference, 'base', BASE)}/vendor.js`}),
-  tag('script', '', {type: 'text/javascript', src: `${get(config.reference, 'base', BASE)}/window.js`}),
+  tag('link', '', {rel: 'stylesheet', href: `${get(config.reference, 'base', BASE)}/style.css?v=1.3`}),
+  tag('script', '', {type: 'text/javascript', src: `${get(config.reference, 'base', BASE)}/vendor.js?v=1.3`}),
+  tag('script', '', {type: 'text/javascript', src: `${get(config.reference, 'base', BASE)}/window.js?v=1.3`}),
 
   // iFrameResizer
   tag('script', iframeResizerContentWindow)
